@@ -1,0 +1,15 @@
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+header{
+    background-color: rgb(35,47,62);
+}
+.ama{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-weight: 500;
+}
+
