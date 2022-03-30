@@ -1,15 +1,144 @@
-body{
-    font-family: 'Montserrat', sans-serif;;
+body {
+    font-family:  'Montserrat', sans-serif;
+    font-size: 25px;
 }
-header{
-    background-color: rgb(35,47,62);
+main{
+    display: flex;
+    justify-content: space-evenly;
 }
-.ama{
+header {
+    background-color: rgb(35, 47, 62);
+}
+
+.ama {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-h1{
-    font-weight: 500;
+
+h1 {
+    font-size: 50px;
+
 }
 
+h3 {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+p {
+    line-height: 2rem; 
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+input {
+    padding: 10px 20px;
+    margin-right: 7px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+#heartrate {
+    font-weight: 700;
+}
+
+#footer {
+    background-color: #ee7614;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+button {
+    margin-top: 24px;
+    margin-right: 24px;
+    padding-left: 15px;
+    /* padding-top: 20px; */
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: #ca3d22;
+}
+
+#purple {
+    background-color: #8a5362;
+}
+
+#pink  {
+    background-color: #e9c7be;
+}
+.container{
+/* position:relative;
+top:0;
+left:0; */
+max-width: 700px;
+max-height: 900px
+}
+.skin {
+max-width: 700px;
+max-height: 900px
+}
+
+#content{
+     /* border: 1px solid black;  */
+    margin-right: 450px;
+    margin-top: 85px;
+    padding: 15px 20px;
+}
+
+#timePlaceHolder {
+    background: black;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    /* left: -428px;
+    top: -332px;  */
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    /* justify-items: center;
+    align-items: center;  */
+} 
+#watch{
+    position:relative;
+}
+
+#timeCol{
+    position:absolute;
+    top: 270px;
+    left: 260px;
+}
+
+/* .phoneArea{
+    height: 40px;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left: 5px;
+}
+.nameArea{
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+button{
+    margin-top: 24px;
+    margin-right: 36px;
+    padding: 12px 24px;
+}
+ .repeat{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 5px;
+    justify-content: center;
+
+}  */
